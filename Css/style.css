@@ -10,11 +10,11 @@ body{
   src: url(../fonts/Super-Mario-World.ttf);
 }
 .conte{
+  height: 60rem;
   background-image: url(../images/fondo.png);
- 
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 1000px;
-
+  
 }
 .supp{
   font-family: super-mario-world;
@@ -30,17 +30,15 @@ body{
   animation: mymove 15s infinite;
   bottom: 0px;
 }
-.cajaja{
-  height: 620px;
-}
+
 .text{
   height: 10vh;
 }
 @keyframes mymove {
-  0%{top: 540px;}
-  10%{top: 540px;}
-  15%{top: 540px; left: 0px;}
-  40%{top: 540px ; left: 750px;}
+  0%{top: 78%;}
+  10%{top: 78%;}
+  15%{top: 78%; left: 0px;}
+  40%{top: 78% ; left: 750px;}
   41%{top: 440px ;left: 750PX; }
   42%{left: 750px; top: 540px;}
   50%{top: 540px; left: 820pxs;}
