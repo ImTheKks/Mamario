@@ -11,8 +11,10 @@ body{
 }
 .conte{
   background-image: url(../images/fondo.png);
-  background-size: 100%;
+ 
   background-repeat: no-repeat;
+  height: 1000px;
+
 }
 .supp{
   font-family: super-mario-world;
