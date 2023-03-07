@@ -38,16 +38,17 @@ body{
   0%{top: 78%;}
   10%{top: 78%;}
   15%{top: 78%; left: 0px;}
-  40%{top: 78% ; left: 750px;}
-  41%{top: 440px ;left: 750PX; }
-  42%{left: 750px; top: 540px;}
-  50%{top: 540px; left: 820pxs;}
-  52%{top: 340px; left: 950px;}
-  70%{top: 340px; left: 1040px;}
-  71%{top: 240px;}
-  72%{top: 340px;}
-  80%{left: 1170px; top: 340px;}
-  100%{top:540px ; left: 1300px;}
+  40%{top: 78% ; left: 59%;}
+  41%{top: 65% ;left: 59%; }
+  42%{top: 78%; left: 59%;}
+  50%{ top: 78%; left: 65%;}
+  60%{top: 50%; }
+  65%{left: 75%;}
+  70%{top: 50%; left: 80%;}
+  71%{top:35% ; left: 80%;}
+  72%{top: 50%; left: 80%;}
+  90%{top: 50%; left: 90%;}
+  100%{top: 30%; left: 100%;}
   
   
   
