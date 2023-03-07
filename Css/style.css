@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: super-mario-world;
+  src: url(../fonts/Super-Mario-World.ttf);
+}
+.conte{
+  background-image: url(../images/fondo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.supp{
+  font-family: super-mario-world;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mario{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  animation: mymove 15s infinite;
+  bottom: 0px;
+}
+.cajaja{
+  height: 620px;
+}
+.text{
+  height: 10vh;
+}
+@keyframes mymove {
+  0%{top: 540px;}
+  10%{top: 540px;}
+  15%{top: 540px; left: 0px;}
+  40%{top: 540px ; left: 750px;}
+  41%{top: 440px ;left: 750PX; }
+  42%{left: 750px; top: 540px;}
+  50%{top: 540px; left: 820pxs;}
+  52%{top: 340px; left: 950px;}
+  70%{top: 340px; left: 1040px;}
+  71%{top: 240px;}
+  72%{top: 340px;}
+  80%{left: 1170px; top: 340px;}
+  100%{top:540px ; left: 1300px;}
+  
+  
+  
+  
+  
+
+  
+  
+ 
+} 
